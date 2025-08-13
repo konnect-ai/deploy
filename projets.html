@@ -1,41 +1,48 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Projets</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;700&display=swap" />
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>KONNECT.AI – Projets</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+  <style>
+    body { background: radial-gradient(circle at center, #050505 0%, #000 100%); color: #c0faff; font-family: 'Orbitron', sans-serif; }
+    nav.container-fluid { background: rgba(0, 255, 255, 0.05); backdrop-filter: blur(8px); }
+    header.hero { text-align: center; padding: 5rem 2rem 3rem; }
+    header.hero img { width: 180px; filter: drop-shadow(0 0 25px rgba(0, 255, 255, 0.8)); }
+    h2, h3 { color: #00ffff; }
+    .glow-box { background: rgba(0, 255, 255, 0.05); border: 1px solid rgba(0, 255, 255, 0.2); border-radius: 8px; padding: 2rem; box-shadow: 0 0 20px rgba(0, 255, 255, 0.1); }
+    section { padding: 3rem 0; }
+  </style>
 </head>
 <body>
+<nav class="container-fluid">
+  <ul><li><strong>KONNECT.AI</strong></li></ul>
+  <ul>
+    <li><a href="index.html">Accueil</a></li>
+    <li><a href="offres.html">Offres</a></li>
+    <li><a href="tarifs.html">Tarifs</a></li>
+    <li><a href="a-propos.html">À propos</a></li>
+    <li><a href="projets.html">Projets</a></li>
+    <li><a href="contact.html" role="button">Contact</a></li>
+  </ul>
+</nav>
+<main class="container">
   <header class="hero">
-    <nav>
-      <ul>
-        <li><a href="index.html">Accueil</a></li>
-        <li><a href="offres.html">Offres</a></li>
-        <li><a href="tarifs.html">Tarifs</a></li>
-        <li><a href="a-propos.html">À propos</a></li>
-        <li><a href="projets.html">Projets</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
+    <img src="https://raw.githubusercontent.com/konnect-ai/konnect-ai/refs/heads/master/logo.png" alt="KONNECT.AI Logo">
+    <h1>Projets</h1>
   </header>
-  <main>
-    <section>
-      <h2>Projets</h2><ul><li>KonnectCMS</li><li>AutoZap</li><li>VizAI</li></ul>
-    </section>
-  </main>
-  <footer>
-    <div class="social-icons">
-      <a href="#"><img src="https://raw.githubusercontent.com/konnect-ai/konnect-ai/refs/heads/master/Whatsapp.png" alt="WhatsApp" /></a>
-      <a href="#"><img src="https://github.com/konnect-ai/konnect-ai/blob/master/Instragram.png?raw=true" alt="Instagram" /></a>
-      <a href="#"><img src="https://raw.githubusercontent.com/konnect-ai/konnect-ai/refs/heads/master/Facebook.png" alt="Facebook" /></a>
-      <a href="#"><img src="https://raw.githubusercontent.com/konnect-ai/konnect-ai/refs/heads/master/Linkedin.png" alt="LinkedIn" /></a>
-      <a href="#"><img src="https://raw.githubusercontent.com/konnect-ai/konnect-ai/refs/heads/master/Telegram.png" alt="Telegram" /></a>
-    </div>
-    <img src="https://raw.githubusercontent.com/konnect-ai/konnect-ai/refs/heads/master/ChatGPT%20Image%2023%20juil.%202025%2C%2011_58_27.png" alt="KONNECT.AI" class="footer-logo" />
-    <p>&copy; 2025 KONNECT.AI – Créé avec passion par Koko</p>
-    <a href="mentions-legales.html" class="legal-link">Mentions légales</a>
-  </footer>
+  <section class="glow-box">
+    <hgroup><h2>Réalisations</h2><h3>Nos projets phares</h3></hgroup>
+    <ul>
+      <li>KonnectCMS – Système de gestion de contenu statique</li>
+      <li>AutoZap – Automatisation entre formulaires et Google Sheets</li>
+      <li>VizAI – Générateur de dashboards IA + web</li>
+    </ul>
+  </section>
+</main>
+<footer class="container">
+  <small><a href="mentions-legales.html">Mentions légales</a> • © 2025 KONNECT.AI</small>
+</footer>
 </body>
 </html>

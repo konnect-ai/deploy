@@ -1,0 +1,90 @@
+{
+  "prefix": "=>",
+  "trigger_commands": [
+    "All",
+    "Sentinel",
+    "Pixel",
+    "Midas",
+    "Picsou",
+    "Automate",
+    "Firewall",
+    "Contact",
+    "Viral",
+    "Jugeote",
+    "Qualito",
+    "Coach",
+    "Marius",
+    "à faire",
+    "à continuer",
+    "validé"
+  ],
+  "discord_token_env": "DISCORD_TOKEN",
+  "openai_key_env": "OPENAI_API_KEY",
+  "datetime_format": "%d/%m/%Y %H:%M:%S",
+  "timezone": "Europe/Paris",
+  "channels": {
+    "BureauDuQG": "1399731307440766988",
+    "EventCenter": "1400881532368851155",
+    "Sentinel": "1400811122012983367",
+    "Pixel": "1400058330390597673",
+    "Midas": "1400058322039865394",
+    "Picsou": "1400058322698375231",
+    "Automate": "1399735315421200477",
+    "Firewall": "1400058331334180915",
+    "Contact": "1400058332382887966",
+    "Viral": "1400058325399502988",
+    "Jugeote": "1400058324069646336",
+    "Qualito": "1400058329350279209",
+    "Coach": "1400058327773216913",
+    "Marius": "1400812141216530524"
+  },
+  "emoji_map": {
+    "All": "🌐",
+    "Sentinel": "🪖",
+    "Pixel": "🎨",
+    "Midas": "💰",
+    "Picsou": "💶",
+    "Automate": "🤖",
+    "Firewall": "🛡️",
+    "Contact": "🤝",
+    "Viral": "📢",
+    "Jugeote": "⚖️",
+    "Qualito": "✅",
+    "Coach": "🧭",
+    "Marius": "🎓"
+  },
+  "actions": {
+    "à faire": {
+      "emoji": "🔧",
+      "title": "Nouvelle tâche à faire"
+    },
+    "à continuer": {
+      "emoji": "🔄",
+      "title": "Tâche à continuer"
+    },
+    "validé": {
+      "emoji": "✅",
+      "title": "Tâche validée"
+    }
+  },
+  "display_name": {
+    "All": "Envoyer à tous le monde",
+    "Automate": "Désignation(s)"
+  },
+  "webhooks": {
+    "BureauDuQG": "https://discord.com/api/webhooks/.../... ",
+    "EventCenter": "https://discord.com/api/webhooks/.../... ",
+    "Sentinel": "https://discord.com/api/webhooks/.../... ",
+    "Pixel": "https://discord.com/api/webhooks/.../... ",
+    "Midas": "https://discord.com/api/webhooks/.../... ",
+    "Picsou": "https://discord.com/api/webhooks/.../... ",
+    "Automate": "https://discord.com/api/webhooks/.../... ",
+    "Firewall": "https://discord.com/api/webhooks/.../... ",
+    "Contact": "https://discord.com/api/webhooks/.../... ",
+    "Viral": "https://discord.com/api/webhooks/.../... ",
+    "Jugeote": "https://discord.com/api/webhooks/.../... ",
+    "Qualito": "https://discord.com/api/webhooks/.../... ",
+    "Coach": "https://discord.com/api/webhooks/.../... ",
+    "Marius": "https://discord.com/api/webhooks/.../... "
+  }
+}

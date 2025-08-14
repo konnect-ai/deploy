@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: konnect-bot
+    env: node
+    rootDir: bot        # 👈 remplace par ton dossier réel
+    buildCommand: npm install
+    startCommand: node index.js
+    plan: free
+    envVars:
+      - key: DISCORD_TOKEN
+        sync: false
